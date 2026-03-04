@@ -1,4 +1,4 @@
-package main.java.com.narxoz.rpg;
+package com.narxoz.rpg;
 
 public class Main {
     

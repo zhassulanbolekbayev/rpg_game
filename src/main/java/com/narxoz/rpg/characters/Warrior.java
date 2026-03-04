@@ -1,4 +1,4 @@
-package main.java.com.narxoz.rpg.characters;
+package com.narxoz.rpg.characters;
 
 public class Warrior extends BaseCharacter {
     public Warrior(String name) {

@@ -1,6 +1,6 @@
-package main.java.com.narxoz.rpg.characters;      
+package com.narxoz.rpg.characters;      
 
-public abstract class BaseCharacter {
+public abstract class BaseCharacter implements Character {
     private String name;
     private int health;
     private int mana;
@@ -36,14 +36,12 @@ public abstract class BaseCharacter {
         return intelligence;
     }
 
-    public String getStats(){
-        return "Name: " + name + ", Health: " + health + ", Mana: " + mana + ", Strength: " + strength + ", Intelligence: " + intelligence;
+    public void getStats(){
+        System.out.println("Name: " + name + ", Health: " + health + ", Mana: " + mana + ", Strength: " + strength + ", Intelligence: " + intelligence);
     }
 
-    public void useSpecialAbility() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'useSpecialAbility'");
-    };
+    @Override
+    public abstract void useSpecialAbility();
 }
 
 

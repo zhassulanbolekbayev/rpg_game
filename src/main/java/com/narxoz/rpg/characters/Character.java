@@ -1,4 +1,4 @@
-package main.java.com.narxoz.rpg.characters;
+package com.narxoz.rpg.characters;
 
 public interface Character {
     String getName();
