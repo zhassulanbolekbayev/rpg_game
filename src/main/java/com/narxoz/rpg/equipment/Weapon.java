@@ -1,8 +1,9 @@
-package main.equipment;
+package com.narxoz.rpg.equipment;
 
 public interface Weapon {
-    int getDamage();
+    int getDamage();        
     String getWeaponInfo();
-    void displayWeaponInfo();
+    int getManaBoost(); 
+
 }
 
